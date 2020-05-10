@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* 图标颜色为黑色 */
+#link .iconfont {
+    color: red;
+}
+
+/* 头部的 第一个li 不超出隐藏 */
+#link #r ul li:nth-child(1) {
+    width: 200px;
+}
+
+/* 顶部 */
+#top {
+    height: 196px;
+    background: white;
+}
+
+/* 版心 */
+#top .wrap {
+    height: 100%;
+}
+
+#top .wrap #top-t {
+    height: 146px;
+    width: 100%;
+}
+
+/* 左边的logo 和 手机分类菜单 */
+#top .wrap #top-t #l {
+    width: 474px;
+    height: 100%;
+    line-height: 146px;
+}
+
+#top .wrap #top-t #l #img-box {
+    width: 212px;
+    height: 70px;
+}
+
+#top .wrap #top-t #l #img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+#top .wrap #top-t #l p {
+    font-size: 34px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 64px;
+    margin-top: 10px;
+}
+
+#top .wrap #top-t #l p span {
+    width: 110px;
+    height: 34px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    color: #ccc;
+    border: 1px solid #ccc;
+    margin-left: 14px;
+    padding-top: 4px;
+}
+
+/* 中间的搜索框 */
+
+#top .wrap #top-t #c {
+    width: 660px;
+    height: 90px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+#top .wrap #top-t #c a:hover {
+    color: red;
+}
+
+#top .wrap #top-t #c #sreach {
+    height: 52px;
+    width: 100%;
+    border: 1px solid #0893ff;
+    line-height: 52px;
+    margin-bottom: 5px;
+}
+
+#top .wrap #top-t #c #sreach #box {
+    width: 120px;
+    height: 100%;
+    background: #0893ff;
+    text-align: center;
+    font-size: 34px;
+    line-height: 52px;
+    color: white;
+}
+
+/* 右边的购物车 */
+#top .wrap #top-t #r {
+    width: 250px;
+    height: 55px;
+    background: #f9f9f9;
+    margin-top: 49px;
+    margin-left: 84px;
+    border: 1px solid #ccc;
+}
+
+#top .wrap #top-t #r p {
+    font-size: 24px;
+    line-height: 55px;
+}
+
+#top .wrap #top-t #r .iconfont {
+    font-size: 34px;
+    color: red;
+    margin-left: 20px;
+    line-height: 55px;
+}
+
+#top .wrap #top-t #r em {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: red;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -6px;
+}
+
+#top .wrap #top-b {
+    /* background: chartreuse; */
+    width: 100%;
+    height: 52px;
+}
+
+#top .wrap #top-b ul {
+    width: 100%;
+    height: 100%;
+    line-height: 52px;
+}
+
+#top .wrap #top-b ul li:nth-child(1) {
+    width: 319px;
+    height: 100%;
+    background: #0893ff;
+    font-size: 22px;
+    color: white;
+    padding-left: 12px;
+}
+
+#top .wrap #top-b ul li {
+    min-width: 110px;
+    float: left;
+    margin-left: 20px;
+}
+
+#top .wrap #top-b ul li a {
+    font-size: 20px;
+    color: black;
+}
+
+#top .wrap #top-b ul li a:hover {
+    color: #0893ff;
+}
+
+/* 中间区域 */
+#center {
+    min-height: 10000px;
+    background: #f6f6f6;
+}
+
+/* 版心区域 */
+#center .wrap {
+    min-height: 10000px;
+}
+
+/* 中间的顶部区域 */
+// 从这里开始 使用一部分样式 用 scss写
+$baseSize:14px;
+#center .wrap #c-l{
+    width: 320px;
+    height: 700px;
+    background: #0893ff;
+    // height: ;
+}

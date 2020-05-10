@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1000147",
+      "name": "联系人-选中",
+      "font_class": "lianxirenxuanzhong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1330569",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "6940830",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "8759836",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "9447888",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "10471940",
+      "name": "消息",
+      "font_class": "xx",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10995993",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

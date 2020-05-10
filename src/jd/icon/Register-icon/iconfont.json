@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6216450",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "14236470",
+      "name": "地球_箭头_earth_arrow",
+      "font_class": "diqiu_jiantou_earth_arrow",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}
