@@ -15,21 +15,21 @@ gulp.task("watchall", async ()=>{
         .pipe(htmlmin({
             collapseWhitespace:true
         }))
-        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-PRO\\html"));
+        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-project\\html"));
     });
     gulp.watch("./src/jd/images/**/*",async ()=>{
         gulp.src("./src/jd/images/**/*")
-        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-PRO\\images"));
+        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-project\\images"));
     });
     gulp.watch("./src/jd/icon/**/*",async ()=>{
         gulp.src("./src/jd/icon/**/*")
-        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-PRO\\icon"));
+        .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-project\\icon"));
     });
     //sass编译 
     gulp.watch("./src/jd/css/*.scss",async ()=>{
        gulp.src("./src/jd/css/*.scss")
        .pipe(sass())
-       .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-PRO\\css"));
+       .pipe(gulp.dest("D:\\phpstudy_pro\\WWW\\JD-project\\css"));
     });
 });   
 

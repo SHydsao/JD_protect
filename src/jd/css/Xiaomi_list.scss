@@ -1,0 +1,410 @@
+.wrap1 {
+    /*版心 */
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+
+/* 顶部 */
+#top {
+    height: 180px;
+    background: white;
+}
+
+/* 版心 */
+#top .wrap1 {
+    height: 100%;
+}
+
+#top .wrap1 #top-t {
+    height: 146px;
+    width: 100%;
+}
+
+/* 左边的logo 和 手机分类菜单 */
+#top .wrap1 #top-t #l {
+    width: 474px;
+    height: 100%;
+    line-height: 146px;
+}
+
+#top .wrap11 #top-t #l #img-box {
+    width: 212px;
+    height: 70px;
+}
+
+#top .wrap1 #top-t #l #img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+#top .wrap1 #top-t #l p {
+    font-size: 34px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+#top .wrap1 #top-t #l p span {
+    width: 120px;
+    height: 34px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    color: #ccc;
+    border: 1px solid #ccc;
+    margin-left: 14px;
+    padding-top: 4px;
+}
+
+/* 中间的搜索框 */
+
+#top .wrap1 #top-t #c {
+    width: 580px;
+    height: 90px;
+    margin-top: 50px;
+    /* margin-left: 28px; */
+    margin-right: 38px;
+}
+
+#top .wrap1 #top-t #c a {
+    float: right;
+    margin-left: 5px;
+}
+
+#top .wrap1 #top-t #c a:hover {
+    color: red;
+}
+
+#top .wrap1 #top-t #c #sreach {
+    height: 52px;
+    width: 100%;
+    border: 2px solid red;
+    line-height: 52px;
+    margin-bottom: 5px;
+}
+
+#top .wrap1 #top-t #c #sreach #box {
+    width: 90px;
+    height: 100%;
+    background: red;
+    text-align: center;
+    font-size: 20px;
+    line-height: 52px;
+    color: white;
+}
+
+#top .wrap1 #top-t #c #sreach #box:nth-child(2) {
+    background: #666666;
+}
+
+/* 右边的购物车 */
+#top .wrap1 #top-t #r {
+    width: 200px;
+    height: 55px;
+    background: #f9f9f9;
+    margin-top: 49px;
+    /* margin-left: 84px; */
+    border: 1px solid #ccc;
+}
+
+#top .wrap1 #top-t #r p {
+    font-size: 18px;
+    line-height: 55px;
+    margin-left: 12px;
+}
+
+#top .wrap1 #top-t #r .iconfont {
+    font-size: 34px;
+    color: red;
+    margin-left: 14px;
+    line-height: 55px;
+}
+
+#top .wrap1 #top-t #r em {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: red;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -6px;
+}
+
+/* 导航栏 */
+#top-b {
+    background: chartreuse;
+    width: 100%;
+    height: 52px;
+    background: #221C63;
+}
+
+#top-b .wrap1 {
+    height: 52px;
+}
+
+#top-b .wrap1 ul {
+    width: 100%;
+    height: 100%;
+    line-height: 52px;
+}
+
+
+#top-b .wrap1 ul li {
+    min-width: 100px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#top-b .wrap1 ul li a {
+    font-size: 20px;
+    color: white;
+}
+
+#top-b .wrap1 ul li a:hover {
+    color: red;
+}
+
+// banner图
+$baseSize:14px;
+
+#banner img {
+    position: relative;
+    top: -3px;
+    height: 650px;
+    width: 100%;
+}
+
+/* #banner .wrap1{
+    position: relative;
+    top: -553px;
+    height: 550px;
+    // overflow: hidden;
+    // background: orange;
+    span{
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        font-size: 58px;
+        color: white;
+    }
+    span:hover{
+        color: red;
+    }
+    ul{
+        min-width: 200px;
+        height:30px;
+        // background: yellowgreen;
+ 
+        li{
+            float: left;
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            background: white;
+            margin-left: 12px;
+        }
+        li:hover{
+            width: 16px;
+            height: 16px; 
+            border-radius: 8px;
+            border: 1px solid red;
+        }
+        position: absolute;
+        left: 600px;
+        bottom: 0;
+    }
+} */
+// 直播信息
+#message {
+    background: white;
+
+    .wrap1 {
+        height: 284px;
+
+        #img-box {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            top: -3px;
+        }
+
+        #img-box img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+//好物推荐
+#goods {
+    min-height: 4000px;
+    background: #F3F3F3;
+
+    .wrap1 {
+        min-height: 5000px;
+
+        #tit img {
+            height: 192px;
+            width: 100%;
+        }
+
+        #MI10 {
+            height: 470px;
+            width: 100%;
+            border-radius: 14px;
+            background: #01615d;
+
+            #img-box img {
+                height: 470px;
+                width: 820px;
+            }
+
+            #tit {
+                height: 106px;
+                width: 418px;
+                margin-left: 60px;
+                margin-top: 100px;
+
+                p {
+                    font-size: 50px;
+                    color: white;
+                    font-weight: bolder;
+                    margin-bottom: 22px;
+                }
+
+                i {
+                    font-size: 22px;
+                    color: #F3F3F3;
+
+                }
+            }
+
+            #price {
+                height: 140px;
+                width: 260px;
+                margin-left: 60px;
+                margin-top: 60px;
+
+                p {
+                    font-size: 50px;
+                    color: white;
+                    font-weight: bolder;
+
+                    i {
+                        font-size: 24px;
+                        color: #F3F3F3;
+                    }
+                }
+
+                span {
+                    margin-top: 14px;
+                    display: block;
+                    width: 208px;
+                    height: 60px;
+                    border: 2px solid rgb(48, 148, 187);
+                    border-radius: 30px;
+                    text-align: center;
+                    line-height: 60px;
+                    color: white;
+                    font-size: 32px;
+                }
+
+                span:hover {
+                    border: 2px solid red;
+                    color: red;
+                }
+            }
+        }
+
+        #phone_list {
+            margin-top: 20px;
+            width: 674px;
+            height: 594px;
+            margin-right: 18px;
+            border-radius: 20px;
+            background: white;
+
+            #img-box img {
+                height: 410px;
+                width: 100%;
+            }
+
+            #tit {
+                min-width: 220px;
+                height: 104px;
+                margin-top: 54px;
+                margin-left: 24px;
+
+                p {
+                    font-size: 40px;
+                    color: black;
+                    font-weight: bolder;
+                    margin-bottom: 26px;
+                }
+
+                i {
+                    font-size: $baseSize+10px;
+                }
+            }
+
+            #price {
+                width: 360px;
+                height: 116px;
+                margin-top: 32px;
+                margin-right: 24px;
+                p {
+                    font-size: 42px;
+                    color: red;
+
+                    em {
+                        font-size: 30px;
+                        color: red;
+                    }
+
+                    sup {
+                        font-size: 30px;
+                        color: red;
+                    }
+
+                    i {
+                        font-size: 24px;
+                    }
+                    em{
+                        font-size: 24px;
+                        text-decoration: line-through;
+                        color: red;
+                        margin-left: 5px;
+                    }
+                }
+
+                span {
+                    margin-top: 20px;
+                    width: 196px;
+                    height: 48px;
+                    border-radius: 24px;
+                    text-align: center;
+                    line-height: 48px;
+                    color: white;
+                    font-size: 26px;
+                    background:  rgb(48, 148, 187);
+                }
+                span:hover{
+                    border: 1px solid white;
+                    color: red;
+                }
+
+            }
+
+        }
+    }
+}
+
+// 其它的手机列表

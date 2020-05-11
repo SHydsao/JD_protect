@@ -68,10 +68,11 @@ header .wrap {
     font-size: 18px;
     color: #999;
     margin-top: -1px;
+    margin-left: 8px;
 }
 
 #link .iconfont {
-    margin-left: 10px;
+    margin-left: 12px;
     font-size: 18px;
     // color: red;
     margin-top: -1px;
@@ -245,7 +246,7 @@ footer .footer-d .wrap .top1 {
 }
 
 .footer-d .wrap #right1 dd p {
-    background: url(../../images/Home/footer-c.png)no-repeat;
+    background: url(../images/Home/footer-c.png)no-repeat;
     min-height: 300px;
     min-width: 330px;
     font-size: 20px;
@@ -332,7 +333,7 @@ footer .footer-d .wrap .bottom1 #b-bottom1 {
     display: inline-block;
     width: 103px;
     height: 32px;
-    background: url(../../images/Home/footer-b.png) no-repeat;
+    background: url(../images/Home/footer-b.png) no-repeat;
     background-position: 0 -151px;
 }
 

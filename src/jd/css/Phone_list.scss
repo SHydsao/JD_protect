@@ -1,7 +1,13 @@
 @charset "utf-8";
 /* 图标颜色为黑色 */
 #link .iconfont {
-    color: red;
+    // color: blue;
+    // background: blanchedalmond;
+    color: black;
+    margin-right: 4px;
+}
+#link .iconfont span{
+    padding-left: 5px;
 }
 
 /* 头部的 第一个li 不超出隐藏 */
@@ -179,9 +185,15 @@
 /* 中间的顶部区域 */
 // 从这里开始 使用一部分样式 用 scss写
 $baseSize:14px;
-#center .wrap #c-l{
-    width: 320px;
-    height: 700px;
-    background: #0893ff;
-    // height: ;
+$c-Height:772px;
+#center .wrap #top1{
+    height: $c-Height;
+    width: 100%;
+    background: orange;
+    #c-l{
+        width: 320px;
+        height: 100%;
+        background: #0893ff;
+        // height: ;
+    }
 }
